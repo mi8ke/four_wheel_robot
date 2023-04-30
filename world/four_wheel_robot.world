@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://four_wheel_robot</uri>
+    </include>
+
+    <plugin name="center_of_mass" filename="libcenter_of_mass.so">
+      <robot_namespace>/four_wheel_robot</robot_namespace>
+    </plugin>
+  </world>
+</sdf>
